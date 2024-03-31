@@ -1,6 +1,6 @@
 import CreateProductUseCase from "./create.product.usecase";
 const input = {
-  name: "John",
+  name: "MY product",
   price: 2.50
 };
 
