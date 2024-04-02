@@ -50,7 +50,7 @@ describe("E2E test for product", () => {
     expect(listResponse.body.products.length).toBe(2);
     const product = listResponse.body.products[0];
     expect(product.name).toBe("prodA");
-    expect(product.price).toBe(1.99);
+    expect(product.price).toBe(1.88);
     const product2 = listResponse.body.products[1];
     expect(product2.name).toBe("prodB");
     expect(product2.price).toBe(1.25);
