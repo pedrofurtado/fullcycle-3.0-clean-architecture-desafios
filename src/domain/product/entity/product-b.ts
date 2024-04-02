@@ -3,7 +3,7 @@ import Entity from "../../@shared/entity/entity.abstract";
 import NotificationError from "../../@shared/notification/notification.error";
 
 export default class ProductB extends Entity implements ProductInterface {
-  private _id: string;
+  protected _id: string;
   private _name: string;
   private _price: number;
 
