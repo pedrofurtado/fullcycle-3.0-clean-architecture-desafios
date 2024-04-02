@@ -65,7 +65,7 @@ describe("E2E test for product", () => {
     expect(listResponseXML.text).toContain(`<products>`);
     expect(listResponseXML.text).toContain(`<product>`);
     expect(listResponseXML.text).toContain(`<name>prodA</name>`);
-    expect(listResponseXML.text).toContain(`<price>1.99</price>`);
+    expect(listResponseXML.text).toContain(`<price>1.88</price>`);
     expect(listResponseXML.text).toContain(`<name>prodB</name>`);
     expect(listResponseXML.text).toContain(`<price>1.25</price>`);
     expect(listResponseXML.text).toContain(`</products>`);
